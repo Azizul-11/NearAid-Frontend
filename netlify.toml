@@ -5,3 +5,9 @@
 [build.environment]
   # Turn off Netlify's secrets scanner completely
   SECRETS_SCAN_ENABLED = "false"
+
+# SPA fallback: send everything to index.html
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
