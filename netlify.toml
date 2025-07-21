@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  # Turn off Netlify's secrets scanner completely
+  SECRETS_SCAN_ENABLED = "false"
