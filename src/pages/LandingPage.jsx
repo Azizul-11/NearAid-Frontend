@@ -21,7 +21,7 @@ export default function LandingPage() {
           <div className="bg-orange-600 rounded p-2">
             <span className="text-white text-xl">🚨</span>
           </div>
-          <h1 className="text-2xl font-bold text-gray-900 mr-5">HelpMe</h1>
+          <h1 className="text-2xl font-bold text-gray-900 mr-5">NearAid</h1>
         </div>
         <nav className="flex items-center gap-8">
           {!token ? (
